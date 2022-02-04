@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bloquesv2All{
+    @apply sm:w-full sm:my-2 sm:flex sm:flex-row sm:items-end sm:box-content sm:p-4 sm:border-2 sm:border-black sm:rounded-lg xl:w-9/12
+}
+
+.bloquesv1All{
+    @apply sm:w-full sm:my-2 sm:box-content sm:p-4 sm:border-2 sm:border-black sm:rounded-lg xl:w-9/12
+}
+
+.personalInfo{
+    @apply sm:w-full sm:my-2 sm:flex sm:flex-row sm:box-content sm:p-4 sm:border-2 sm:border-black sm:rounded-lg xl:w-9/12
+}
